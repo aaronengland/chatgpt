@@ -11,6 +11,6 @@ setup(
       packages=['chatgpt'],
       install_requires=[
             'openai',
-      ]
+      ],
       zip_safe=False,
 )
