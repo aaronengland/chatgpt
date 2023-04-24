@@ -9,5 +9,8 @@ setup(
       author_email='aaron.england.dev@gmail.com',
       license='MIT',
       packages=['chatgpt'],
+      install_requires=[
+            'openai',
+      ]
       zip_safe=False,
 )
